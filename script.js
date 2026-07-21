@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
     console.log("Alpha Dog website loaded successfully!");
 
-    alert("🐺 Welcome to the official Alpha Dog website!");
+    
 
     const buttons = document.querySelectorAll("a");
 
