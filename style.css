@@ -12,8 +12,10 @@ header {
 }
 
 .nav-logo img {
-    width: 32px;
-    height: 32px;
+    width: 35px !important;
+    height: 35px !important;
+    max-width: 35px !important;
+    max-height: 35px !important;
     object-fit: contain;
     border-radius: 50%;
 }
