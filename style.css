@@ -165,3 +165,17 @@ img {
     max-width: 100%;
     height: auto;
 }
+.nav-arrow {
+    position: fixed;
+    right: 10px;
+    top: 70px;
+    font-size: 25px;
+    z-index: 2000;
+    animation: bounce 1s infinite;
+}
+
+@keyframes bounce {
+    50% {
+        transform: translateX(5px);
+    }
+}
