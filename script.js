@@ -23,7 +23,7 @@ function copyContract() {
 
     navigator.clipboard.writeText(contract.value);
 
-    alert("✅ Contract address copied successfully!");
+    
 }
 const sections = document.querySelectorAll("section");
 
