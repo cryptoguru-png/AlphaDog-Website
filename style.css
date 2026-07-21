@@ -62,3 +62,27 @@ footer {
     margin-top: 40px;
     color: #aaa;
 }
+input {
+    width: 90%;
+    max-width: 700px;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+button {
+    background: #ff9900;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #ff6600;
+}
