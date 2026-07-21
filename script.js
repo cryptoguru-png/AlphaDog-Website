@@ -23,7 +23,7 @@ function copyContract() {
 
     navigator.clipboard.writeText(contract.value);
 
-    
+
 }
 const sections = document.querySelectorAll("section");
 
