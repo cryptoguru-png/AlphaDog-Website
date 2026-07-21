@@ -11,10 +11,11 @@ header {
     padding: 40px 20px;
 }
 
-.logo {
-    width: 150px;
+.nav-logo img {
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
     border-radius: 50%;
-    margin-bottom: 15px;
 }
 
 h1 {
@@ -162,17 +163,6 @@ html {
     font-weight: bold;
 }
 
-.navbar a:hover {
-    color: #ff9900;
-}
-.navbar a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    padding: 10px 15px;
-    border-radius: 8px;
-    transition: all 0.3s ease;
-}
 
 .navbar a:hover {
     background: #ff9900;
