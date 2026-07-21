@@ -86,3 +86,44 @@ button {
 button:hover {
     background: #ff6600;
 }
+.hero {
+    background: linear-gradient(135deg, #111111, #1a1a1a, #ff9900);
+    color: white;
+    padding: 70px 20px;
+}
+
+.tagline {
+    font-size: 24px;
+    color: #ffd700;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+section {
+    background: #1b1b1b;
+    border-radius: 15px;
+    padding: 25px;
+    margin: 25px auto;
+    max-width: 900px;
+    box-shadow: 0 0 20px rgba(255,153,0,0.25);
+}
+
+button,
+a {
+    transition: all 0.3s ease;
+}
+
+button:hover,
+a:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 0 15px #ff9900;
+}
+
+h2 {
+    border-bottom: 2px solid #ff9900;
+    padding-bottom: 10px;
+}
+
+.logo {
+    box-shadow: 0 0 25px #ff9900;
+}
