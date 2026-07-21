@@ -15,3 +15,13 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     });
 });
+function copyContract() {
+    const contract = document.getElementById("contractAddress");
+
+    contract.select();
+    contract.setSelectionRange(0, 99999);
+
+    navigator.clipboard.writeText(contract.value);
+
+    alert("✅ Contract address copied successfully!");
+}
